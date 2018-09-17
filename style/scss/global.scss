@@ -67,16 +67,19 @@
 .g-c-999 {
 	color: #999;
 }
+.g-c-ccc {
+	color: #ccc;
+}
+.g-c-e4 {
+	color: #e4e4e4;
+}
 
 // background-color
 .g-bg-white {
 	background-color: #ffffff;
 }
-.g-bg-black {
-	background-color: #000000;
-}
-.g-bg-333 {
-	background-color: #333333;
+.g-bg-f2 {
+	background-color: #f2f2f2;
 }
 
 /**
@@ -207,4 +210,20 @@
 // line-hegiht
 .g-lh {
 	line-height: 88px
+}
+
+/**
+ * flex
+ */
+.g-flex {
+	display: flex;
+}
+.g-flex-ac {
+	display: flex;
+	align-items: center;
+}
+.g-flex-cc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

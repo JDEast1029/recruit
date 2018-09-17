@@ -64,14 +64,17 @@
 .g-c-999 {
   color: #999; }
 
+.g-c-ccc {
+  color: #ccc; }
+
+.g-c-e4 {
+  color: #e4e4e4; }
+
 .g-bg-white {
   background-color: #ffffff; }
 
-.g-bg-black {
-  background-color: #000000; }
-
-.g-bg-333 {
-  background-color: #333333; }
+.g-bg-f2 {
+  background-color: #f2f2f2; }
 
 /**
  * margin
@@ -191,3 +194,30 @@
 
 .g-lh {
   line-height: 88px; }
+
+/**
+ * flex
+ */
+.g-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex; }
+
+.g-flex-ac {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center; }
+
+.g-flex-cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center; }

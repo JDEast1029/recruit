@@ -1,1 +1,112 @@
+@import './global.scss';
+
 /** 公用组件样式 */
+.g-btn-blue {
+	@extend .g-flex-cc;
+	height: 44px;
+	background-color: #0085ff;
+	color: #ffffff;
+	font-size: 16px;
+	border-radius: 4px;
+	width: 80%;
+	font-weight: 300px;
+	&:active {
+		background-color: #017beb;
+	}
+}
+.g-btn-blue-light {
+	@extend .g-flex-cc;
+	width: 80%;
+	height: 44px;
+	background-color: #e3f2ff;
+	color: #0085ff;
+	font-size: 16px;
+	border: 1px solid #0085ff;
+	border-radius: 4px;
+	font-weight: 300px;
+	&:active {
+		background-color: #cbe5fc;
+	}      
+}
+.g-btn-white {
+	@extend .g-flex-cc;
+	width: 80%;
+	height: 44px;
+	background-color: #ffffff;
+	color: #0085ff;
+	font-size: 16px;
+	border: 1px solid #0085ff;
+	border-radius: 4px;
+	font-weight: 300px;
+	&:active {
+		background-color: #0085ff;
+		color: #ffffff;
+	}  
+}
+
+
+.g-btn-white-small {
+	@extend .g-flex-cc;
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+	color: #0085ff;
+	font-size: 12px;
+	border: 1px solid #0085ff;
+	border-radius: 4px;
+	font-weight: 300px;
+	box-sizing: border-box;
+	&:active {
+		background-color: #0085ff;
+		color: #ffffff;
+	}  
+}
+.g-btn-gray-small {
+	@extend .g-flex-cc;
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+	color: #999999;
+	font-size: 12px;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	font-weight: 300px;
+	box-sizing: border-box; 
+}
+
+// 导航栏
+.g-title-bar {
+	position: fixed;
+	top: 0;
+    right: 0;
+    left: 0;
+	z-index: 10;
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	background-color: #ffffff;
+	padding: 0 10px;
+	color: #333333;
+	font-size: 18px;
+	border-bottom: 1px solid #e4e4e4;
+	._left {
+		
+	}
+	._title {
+		font-size: 17px;
+	}
+	._right {
+
+	}
+}
+
+.g-title-bar-transparent {
+
+}
+
+.g-content {
+	padding-top: 44px;
+}
+.g-content-transparent {
+
+}
