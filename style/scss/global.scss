@@ -227,3 +227,18 @@
 	align-items: center;
 	justify-content: center;
 }
+.g-flex-sa {
+	justify-content: space-around;
+}
+.g-flex-sb {
+	justify-content: space-between;
+}
+.g-col-1 {
+	flex: 1;
+}
+.g-col-2 {
+	flex: 2;
+}
+.g-col-3 {
+	flex: 3;
+}
