@@ -227,11 +227,44 @@
 	align-items: center;
 	justify-content: center;
 }
-.g-flex-sa {
+.g-fd-rr {
+	flex-direction: row-reverse;
+}
+.g-fd-c {
+	flex-direction: column;
+}
+.g-fd-cr {
+	flex-direction: column-reverse;
+}
+.g-jc-sb {
+	justify-content: space-between;
+}
+.g-jc-sa {
 	justify-content: space-around;
 }
-.g-flex-sb {
-	justify-content: space-between;
+.g-jc-c {
+	justify-content: center;
+}
+.g-jc-fe {
+	justify-content: flex-end;
+}
+.g-ai-c {
+	align-items: center;
+}
+.g-ai-fe {
+	align-items: flex-end;
+}
+.g-fw-w {
+	flex-wrap: wrap;
+}
+.g-ac-fs {
+	align-content: flex-start;
+}
+.g-as-fc {
+	align-self: flex-center;
+}
+.g-as-fd {
+	align-self: flex-end;
 }
 .g-col-1 {
 	flex: 1;
@@ -241,4 +274,87 @@
 }
 .g-col-3 {
 	flex: 3;
+}
+
+
+/**
+ * g-disabled
+ * 禁用事件
+ */
+ .g-disabled {
+	pointer-events: none;
+}
+/**
+ * g-noanimate
+ * 禁用动画
+ */
+.g-noanimate {
+	animation: 0 !important;
+	-webkit-animation: 0 !important;
+}
+/**
+ * 文字相关
+ */
+/**
+ * g-oneline
+ * 一行文字
+ */
+.g-text-over{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.g-oneline {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+/**
+ * g-twoline
+ * 两行文字
+ */
+.g-twoline {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/**
+ * g-nowrap
+ * 一行文字 强制不换行
+ */
+.g-nowrap {
+	white-space: nowrap;
+}
+/**
+ * g-nobreak
+ * 单词不换行
+ */
+.g-nobreak {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+/**
+ * g-tc
+ * 文本居中
+ */
+.g-tc {
+	text-align: center;
+}
+/**
+ * g-tl
+ * 文本居左
+ */
+.g-tl {
+	text-align: left;
+}
+/**
+ * g-tr
+ * 文本居右
+ */
+.g-tr {
+	text-align: right;
 }
